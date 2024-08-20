@@ -1,0 +1,75 @@
+body{
+    font-family: "Source Code Pro";
+    margin:0;
+}
+/* The fixed header */
+header{
+    width: 85%;
+    padding: 2% 8%;
+    font-weight: 800;
+    font-size: 18px;
+    color:#fffff2;
+    background-color: #e47328ce;
+    display: grid;
+    grid-template-columns: 120px 250px 120px;
+    justify-content: space-between;
+    position: fixed;
+}
+header .groupHeader{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between
+}
+
+header .groupHeader a{
+    height: 100%;
+    color: #fffff2;
+    text-decoration: none;
+}
+header .groupHeader a:hover{
+    background-color: #fffff2;
+    color: #373c3c;
+}
+
+header .Contact{
+    padding: 1px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 15%;
+}
+.aboutMe{
+
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    align-content: center;
+    justify-content: center;
+}
+.aboutMe img{
+    width: 300px;
+    margin-left: 5%;
+    height: auto;
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.skills{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 5%;
+}
+.skills h2{
+    font-size: 30px;
+}
+.images{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px;
+    width: 50%;
+    justify-content: space-around;
+}
+.images img{
+    width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+}
