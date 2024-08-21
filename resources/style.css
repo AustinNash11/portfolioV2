@@ -33,11 +33,14 @@ header .groupHeader a:hover{
 
 header .Contact{
     padding: 1px;
-    text-align: center;
-    background-color: gray;
     border-radius: 15%;
+    height: 15px;
 }
-
+header .Contact img{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
 .title{
     display: grid;
     width:100%;

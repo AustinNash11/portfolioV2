@@ -40,7 +40,7 @@ for (let i = 0; i < buttons.length; i++) {
 
 //Varibles
 const move = document.getElementsByClassName("square");
-const newGameButton = document.getElementById("newGameButton")
+const newGameButton = document.getElementById("newGameButton");
 //geting the computers move
 function computerMove(){
     let pos = Math.floor(Math.random()* 9);

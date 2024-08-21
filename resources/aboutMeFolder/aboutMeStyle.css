@@ -1,6 +1,7 @@
 body{
     font-family: "Source Code Pro";
     margin:0;
+    color:#373c3c;
 }
 /* The fixed header */
 header{
@@ -33,12 +34,20 @@ header .groupHeader a:hover{
 
 header .Contact{
     padding: 1px;
-    text-align: center;
-    background-color: gray;
     border-radius: 15%;
+    height: 15px;
+}
+header .Contact img{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+.container{
+    background-color: violet;
+    border-radius: 8%;
+    padding: 2%;
 }
 .aboutMe{
-
     width: 100%;
     padding-top: 100px;
     padding-left: 5%;
@@ -46,6 +55,9 @@ header .Contact{
     grid-template-columns: 5fr 4fr;
     align-content: center;
     justify-content: center;
+}
+.aboutMe p{
+    line-height: 1.8;
 }
 .aboutMe img{
     width: 300px;
