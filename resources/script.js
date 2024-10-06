@@ -16,7 +16,7 @@ function slideShow(i){
             link.href = "https://github.com/AustinNash11/messageGame";
             website.href = "#"
             break;
-        // changing to a c# tictactoe game
+        // changing to a React app
         case 1:
             projectIMG.src = "./resources/Images/studentForm.png";
             caption.innerHTML = "Student Form React App";
