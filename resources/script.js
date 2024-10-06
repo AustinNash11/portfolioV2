@@ -3,6 +3,7 @@ const projectIMG = document.getElementById("projectIMG");
 const caption = document.getElementById("caption")
 const buttons = document.getElementsByClassName("button");
 const link  = document.getElementById("link");
+const website = document.getElementById("website");
 buttons[0].style.backgroundColor = "#373c3c";
 //slide show function
 function slideShow(i){
@@ -13,18 +14,21 @@ function slideShow(i){
             projectIMG.src = "./resources/Images/Screenshot 2024-08-15 at 6.46.01 PM.png";
             caption.innerHTML = "Message game!";
             link.href = "https://github.com/AustinNash11/messageGame";
+            website.href = "#"
             break;
         // changing to a c# tictactoe game
         case 1:
-            projectIMG.src = "./resources/Images/Screenshot 2024-08-17 at 12.38.39 PM.png";
-            caption.innerHTML = "C# TicTacToe Game";
-            link.href = "#";
+            projectIMG.src = "./resources/Images/studentForm.png";
+            caption.innerHTML = "Student Form React App";
+            link.href = "https://github.com/AustinNash11/studentForm.git";
+            website.href = "https://austinnash11.github.io/studentForm/"
             break;
         //changing to a place holder
         case 2:
             projectIMG.src = "./resources/Images/IMG_4967.JPG";
-            caption.innerHTML = "Place holder"
+            caption.innerHTML = "Place holder";
             link.href = "#";
+            website.href = "#";
             break;
     }
 
