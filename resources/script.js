@@ -11,10 +11,10 @@ function slideShow(i){
     switch(i) {
         //changing to the message game project
         case 0:
-            projectIMG.src = "./resources/Images/Screenshot 2024-08-15 at 6.46.01 PM.png";
-            caption.innerHTML = "Message game!";
-            link.href = "https://github.com/AustinNash11/messageGame";
-            website.href = "#"
+            projectIMG.src = "./resources/Images/playlistGen.png";
+            caption.innerHTML = "Playlist Generator React App (Spotify API)";
+            link.href = "https://github.com/AustinNash11/jamming.git";
+            website.href = "https://austinnash11.github.io/jamming/"
             break;
         // changing to a React app
         case 1:
@@ -25,9 +25,9 @@ function slideShow(i){
             break;
         //changing to a place holder
         case 2:
-            projectIMG.src = "./resources/Images/IMG_4967.JPG";
-            caption.innerHTML = "Place holder";
-            link.href = "#";
+            projectIMG.src = "./resources/Images/Screenshot 2024-08-15 at 6.46.01 PM.png";
+            caption.innerHTML = "Message game!";
+            link.href = "https://github.com/AustinNash11/messageGame";
             website.href = "#";
             break;
     }
