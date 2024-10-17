@@ -14,7 +14,7 @@ function slideShow(i){
             projectIMG.src = "./resources/Images/playlistGen.png";
             caption.innerHTML = "Playlist Generator React App (Spotify API)";
             link.href = "https://github.com/AustinNash11/jamming.git";
-            website.href = "https://austinnash11.github.io/jamming/"
+            website.href = "https://theplaylistgenerator.netlify.app";
             break;
         // changing to a React app
         case 1:
