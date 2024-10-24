@@ -30,6 +30,12 @@ function slideShow(i){
             link.href = "https://github.com/AustinNash11/messageGame";
             website.href = "#";
             break;
+        case 3:
+            projectIMG.src = "./resources/Images/moviefinder.png";
+            caption.innerHTML = "Movie Finder React App";
+            link.href = "https://github.com/AustinNash11/MovieFinder.git";
+            website.href = "https://moviefinder11.netlify.app";
+            break;
     }
 
 }
