@@ -36,6 +36,12 @@ function slideShow(i){
             link.href = "https://github.com/AustinNash11/MovieFinder.git";
             website.href = "https://moviefinder11.netlify.app";
             break;
+        case $:
+            projectIMG.src = "./resources/Images/weather-app.png";
+            caption.innerHTML = "Weather Forecast React App";
+            link.href = "https://github.com/AustinNash11/Forecast.git";
+            website.href = "https://austinnash11weatherforecast.netlify.app";
+            break;
     }
 
 }
