@@ -42,6 +42,12 @@ function slideShow(i){
             link.href = "https://github.com/AustinNash11/Forecast.git";
             website.href = "https://austinnash11weatherforecast.netlify.app";
             break;
+        case 5:
+            projectIMG.src = "./resources/Images/Appointment.png";
+            caption.innerHTML = "Tutoring Appointment React App";
+            link.href = "https://github.com/AustinNash11/Appointment-app.git";
+            website.href = "https://theappointment-app.netlify.app";
+            break;
     }
 
 }
